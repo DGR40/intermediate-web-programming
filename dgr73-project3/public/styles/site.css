@@ -1,0 +1,723 @@
+body {
+  flex-direction: column ;
+  display: flex;
+  background-image: url("../images/back.jpeg");
+  height:1000px;
+
+}
+
+.bground_image {
+  background-image: url("../images/back.jpeg");
+}
+
+.header {
+  border-color: gold;
+  border-width:1px;
+  border-bottom-width: 0px;
+  border-style:solid;
+  height: 127px;
+  display: flex;
+  justify-content: center;
+  text-align:center;
+  flex-direction: row;
+  margin-bottom:20px;
+  background-color: black;
+}
+
+.subtext {
+  height:60px;
+  color:gold;
+  font-size:20px;
+  justify-content: center;
+  text-align: center;
+  border-style:solid;
+  border-color:gold;
+  border-width:0px;
+  border-right-width: 1px;
+  border-left-width: 1px;
+  background-color: black;
+
+}
+
+.navbar {
+  width:100%;
+  height: 30px;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  border-style:solid;
+  border-color:gold;
+  border-width:0px;
+  border-top-width:1px;
+  padding-top:10px;
+  padding-bottom: 10px;
+
+}
+
+.nav-link {
+  color:gold;
+  font-size: 25px;
+}
+
+.header-text {
+  color:gold;
+  font-size:70px;
+  width:500px;
+  height:100px;
+  display:flex;
+  text-align:center;
+}
+
+.login-bar {
+  height: 80px;
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  padding-top:10px;
+  padding-right:40px;
+}
+
+.content
+{
+  height:1000px;
+  flex-direction: row;
+  display: flex;
+  border-color:gold;
+  border-style:solid;
+  border-width: 1px;
+  justify-content: center;
+  width:100%;
+}
+
+.content-1 {
+  height: 1000px;
+  flex-direction: column;
+  display: flex;
+  border-color:gold;
+  border-style:solid;
+  border-width: 1px;
+}
+
+.body-1 {
+  display: flex;
+  flex:row;
+  justify-content: center;
+  height:1000px;
+}
+
+.buffer {
+  height:100%;
+  width: 18%;
+}
+
+.center{
+  height:100%;
+  width:80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/*///////// TAG AREA ///////////*/
+
+.top-center {
+  height:auto;
+  margin-top:10px;
+  text-align: center;
+  width:100%;
+  border-color:gold;
+  border-style: solid;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  text-align: center;
+  display:flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+  justify-content: center;
+  overflow: auto;
+  flex-wrap: wrap;
+}
+
+.top-center-1 {
+  height:30px;
+  margin-top:10px;
+  width:100%;
+  border-color:gold;
+  border-style: solid;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  text-align: center;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top:10px;
+  padding-bottom: 10px;
+}
+
+.top-center-1-within {
+  height:30px;
+  width:100%;
+  text-align: center;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom:10px;
+}
+
+.top-center-4 {
+  height:30px;
+  margin-bottom:10px;
+  width:100%;
+  border-color:gold;
+  border-style: solid;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  text-align: center;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top:10px;
+  padding-bottom: 10px;
+}
+
+.top-center-5 {
+  height:30px;
+  margin-bottom:10px;
+  width:100%;
+  border-color:gold;
+  border-style: solid;
+  border-top-width: 1px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  text-align: center;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top:10px;
+  padding-bottom: 10px;
+}
+
+
+.link-1 {
+  color:black;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.add-input {
+  display:flex;
+  margin-left:10px;
+}
+
+
+.tag {
+  height:30px;
+  width:100px;
+  margin-top:10px;
+  background-color: gold;
+  color:black;
+  border-color: gold;
+  border-radius:5px;
+  border-width:1px;
+  border-style:solid;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-left: 10px;
+  display: flex;
+}
+
+.tag-text {
+  text-align: center;
+}
+
+.tag-1 {
+  height:30px;
+  width:100px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  background-color: gold;
+  color:black;
+  border-color: gold;
+  border-radius:5px;
+  border-width:1px;
+  border-style:solid;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-left: 10px;
+  display: flex;
+}
+
+.tag-2 {
+  height:30px;
+  width:100px;
+  background-color: gold;
+  color:black;
+  border-color: gold;
+  border-radius:5px;
+  border-width:1px;
+  border-style:solid;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-left: 10px;
+  display: flex;
+}
+
+.tag-3 {
+  height:30px;
+  width:100px;
+  background-color:red;
+  color:black;
+  border-color:white;
+  border-radius:5px;
+  border-width:1px;
+  border-style:solid;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-top:10px;
+  display: flex;
+}
+
+
+.del-tag-box {
+  margin-top:15px;
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+.filter {
+  display: flex;
+  width:900px;
+}
+
+.filter-title {
+  color:white;
+}
+
+.filter-button {
+  margin-left: 20px;
+  height:30px;
+  width:100px;
+  background-color: gold;
+  border-radius:5px;
+  border-style: none;
+}
+
+
+.filter-button-1 {
+  margin-left: 20px;
+  height:30px;
+  width:50px;
+  background-color: gold;
+  border-radius:5px;
+  border-style: none;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color:black;
+}
+
+.check {
+  color:white;
+}
+
+.checks {
+  margin-top:5px;
+  margin-left:220px;
+}
+
+.showing {
+  color:gold;
+  height:60px;
+  font-size:20px;
+  width:800px;
+  background-color:black;
+  justify-content: center;
+  text-align: left;
+  margin-left:114px;
+}
+
+.cards {
+  height: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: auto;
+  justify-content: center;
+  scrollbar-color: gold;
+
+}
+
+.info {
+  width: 55%;
+  height: 70%;
+}
+
+/* MOVIE CARD */
+.card-container {
+  height: 380px;
+  width:250px;
+  margin:20px;
+  border-style:solid;
+  border-width:1px;
+  border-color:grey;
+}
+
+.top {
+  height: 50px;
+  width:fit-content;
+  display: flex;
+  background-color:black;
+}
+
+.top-link {
+  height:20px;
+  color:white;
+  margin-left: 35px;
+  background-color: black;
+  font-size: 12px;
+}
+
+.top-link-1 {
+  height:10px;
+  color:white;
+  margin-top:10px;
+  background-color: black;
+  font-size: 12px;
+}
+
+.top-link-5 {
+  height:20px;
+  color:white;
+  margin-top:10px;
+  margin-left:50px;
+  background-color: black;
+  font-size: 12px;
+}
+
+.big-link {
+
+}
+
+.title {
+  font-size: 20px;
+  margin-left:35px;
+  color:white;
+}
+
+.middle {
+  height: 260px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.movie-pic {
+  height:260px;
+  width:180px;
+  background-color: yellow;
+}
+
+.movie-pic:hover{
+  opacity: .4;
+}
+
+.movie-pic-big {
+  height: 600px;
+  width:500px;
+  margin-top:1%;
+  border-style:solid;
+  border-width:1px;
+  border-color:grey;
+  display: flex;
+  flex-direction: row;
+}
+
+.big-pic {
+  height:600px;
+  width:500px;
+}
+
+.big-pic-container {
+  margin-left:20%;
+  height:1200px;
+}
+
+.bottom {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  color:white;
+  background-color: black;
+}
+
+.genre {
+  height: 20px;
+  width:110px;
+  margin-left:35px;
+  margin-top:5px;
+  background-color: black;
+}
+
+.stars {
+  height: 20px;
+  width:110px;
+  margin-top:5px;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+
+.star {
+  height:15px;
+  width:15px;
+  margin-left:5px;
+}
+
+/* END OF MOVIE CARD */
+
+/* THEATRE CARD */
+.card-container-1 {
+  height: 340px;
+  width:400px;
+  margin:20px;
+  border-style:solid;
+  border-width:1px;
+  border-color:grey;
+  padding-bottom:10px;
+}
+
+.card-container-2 {
+  height: 360px;
+  width:400px;
+  margin:20px;
+  border-style:solid;
+  border-width:1px;
+  border-color:grey;
+  padding-bottom:10px;
+}
+
+.title-1 {
+  font-size: 17px;
+  margin-left:50px;
+  color:white;
+background-color: black;
+}
+
+.bottom-1{
+  height: 30px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.movie-pic-1{
+  height:260px;
+  width:300px;
+  background-color: yellow;
+}
+
+.address{
+  color: white;
+  margin-left:50px;
+  margin-bottom:5px;
+  display: flex;
+  background-color: black;
+}
+
+
+
+
+
+.footer {
+  height:30px;
+  background-color:gold;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color:black;
+}
+
+
+/* MOVIE INFO */
+.info {
+  color:gold;
+  margin-left:5%;
+  margin-top:2%;
+}
+
+.info-box {
+  font-size: 18px;
+  background-color: black;
+  margin-right:10%;
+}
+
+.info-box-text {
+  margin-top:10px;
+}
+
+/* LINKS */
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+
+
+/* END OF LINKS */
+
+/* LOGIN FORM */
+.user {
+  color:white;
+  background-color: black;
+}
+.pass {
+  color:white;
+  background-color: black;
+}
+.sign-up {
+  background-color: gold;
+  border-radius: 5px;
+  border-style: none;
+}
+
+#password{
+  margin-left:4px;
+}
+
+.sign-out {
+  text-align: right;
+  margin-right:10px;
+  border-radius:5px;
+  border-style: none;
+  width:80px;
+  background-color:black;
+}
+
+/* //////////////// UPLOAD FORM //////////////// */
+
+.upload-container {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+.upload {
+  height: auto;
+  width:50%;
+  display:flex;
+  margin-left:25%;
+  margin-right:25%;
+  margin-top:2%;
+  margin-bottom:2%;
+  border-bottom-width: 0.5px;
+  border-color:gold;
+  border-style:solid;
+  background-color:black;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color:white;
+  padding-left:16%;
+  padding-bottom:10px;
+
+}
+
+
+
+.feedback {
+  text-decoration-line: underline;
+  font-size: 12px;
+  padding:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EDIT FORM */
+.edit_button {
+  display: flex;
+  padding-top:20px;
+  background-color:red;
+}
+
+.edit-box {
+  height:auto;
+  display:flex;
+  width:300px;
+  flex-direction: column;
+  background-color: black;
+}
+
+.edit-label {
+  width:150px;
+  font-size: 18px;
+}
+
+.edit-input {
+  margin-top:10px;
+  margin-bottom:10px;
+  width:200px;
+}
+
+.edit-save {
+  width: 70px;
+  margin-top:10px;
+}
+
+.feed-1{
+  background-color:black;
+  color:red;
+  margin-right:10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.added-new {
+  color:gold;
+  background-color:black;
+  margin-bottom: 10px;
+}
+
+.h {
+  color:black;
+}
